@@ -15,7 +15,6 @@ public class MyAnimation {
     public MyAnimation(String name, int row, int col, float frameDuration, Animation.PlayMode playMode) {
         time = 0;
         img = new Texture(name);
-//        TextureRegion reg = new TextureRegion(img);
         TextureRegion[][] regions = new TextureRegion(img).split(
                 img.getWidth() / col,
                 img.getHeight() / row);
